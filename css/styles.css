@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(13, 25, 43);
+  font-family: 'Outfit', sans-serif;
+}
+p{
+  color:#8bacda;
+}
+hr{
+  border-style: solid none none;
+  border-color: #2f415b;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:cyan;
+}
+.equilibrium{
+  margin:100px auto auto auto;
+  background-color: #14253d;
+  padding:25px;
+  width:260px;
+  border-radius: 10px 10px;
+}
+.equi-img{
+  width:100%;
+  height:250px;
+}
+
+.ether{
+  flex:1;
+  font-size: .8rem;
+  font-weight: 600;
+}
+.clock{
+  flex:1;
+  margin-left: 60px;
+  font-size: .8rem;
+  font-weight: 600;
+
+}
+.side{
+  display:flex;
+}
+
+.ether-img{
+  float:left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.clock-img{
+  float:left;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.avatar{
+  width:30px;
+  float:left;
+  margin-right: 10px;
+}
+.ether-value{
+  color:cyan;
+}
+.attribution{
+  position:absolute;
+  background-color:#14253d;
+  bottom:0;
+  color:#8bacda;
+  font-size: .8rem;
+  padding-left: 40%;
+  padding-right: 635px;
+}
